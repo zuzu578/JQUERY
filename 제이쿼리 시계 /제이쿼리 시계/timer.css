@@ -1,0 +1,61 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#timer{
+  font-size: 30px;
+ background:pink;
+  height:100px;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+  color:white;
+}
+#timer-items{
+  
+  width:100%;
+    height:100px;
+    text-align: center;
+    padding-top:30px;
+
+
+}
+#btnGo{
+  cursor: pointer;
+ border:none;
+ outline: none;
+ color:black;
+ background:powderblue;
+ font-size: 20px;
+ padding:20px;
+ border-radius: 4px;
+ width:200px;
+
+}
+.button-frame1{
+  margin-left:20px;
+}
+.button-frame2{
+  margin-right:20px;
+}
+#btnStop{
+  cursor: pointer;
+   border:none;
+ outline: none;
+ color:black;
+ background:powderblue;
+ width:200px;
+ font-size:20px;
+ padding:20px;
+ border-radius: 4px;
+  
+
+}
+.button-container{
+ padding-top:100px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
